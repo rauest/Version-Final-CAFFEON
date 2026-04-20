@@ -126,7 +126,7 @@ export function HeroSection() {
             asChild
             variant="outline"
             size="lg"
-            className="border-blanco-menta text-blanco-menta hover:bg-blanco-menta/10 px-8 h-12 text-base"
+            className="bg-blanco-menta border-blanco-menta text-verde-profundo hover:bg-blanco-menta/90 px-8 h-12 text-base"
           >
             <Link href="#origen">Conoce Nuestra Historia</Link>
           </Button>
