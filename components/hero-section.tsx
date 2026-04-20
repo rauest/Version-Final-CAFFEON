@@ -81,7 +81,7 @@ export function HeroSection() {
         {/* Logo */}
         <div className="mb-8">
           <h1 className="font-serif text-5xl md:text-7xl tracking-widest text-blanco-menta">
-            CAFFE<span className="text-dorado">O</span>N
+            COFFE<span className="text-dorado">O</span>N
           </h1>
           <p className="text-dorado text-sm md:text-base tracking-[0.3em] mt-2 uppercase">
             Café de Especialidad
@@ -126,7 +126,7 @@ export function HeroSection() {
             asChild
             variant="outline"
             size="lg"
-            className="border-verde-profundo bg-verde-profundo text-blanco-menta hover:bg-verde-profundo/90 px-8 h-12 text-base"
+            className="border-blanco-menta text-blanco-menta hover:bg-blanco-menta/10 px-8 h-12 text-base"
           >
             <Link href="#origen">Conoce Nuestra Historia</Link>
           </Button>
