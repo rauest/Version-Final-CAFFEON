@@ -74,7 +74,7 @@ export default function LegalesPage() {
                 <li><strong>Responsable:</strong> CAFFEON.ES</li>
                 <li><strong>Nombre comercial:</strong> CAFFEON</li>
                 <li><strong>Domicilio social:</strong> Bogotá, Colombia, 110110</li>
-                <li><strong>Email de contacto:</strong> coffeon.oficial@contacto.com</li>
+                <li><strong>Email de contacto:</strong> caffeon.oficial@contacto.com</li>
               </ul>
 
               <h3 className="font-serif text-xl text-verde-profundo">Aceptación del Aviso Legal</h3>
@@ -145,7 +145,7 @@ export default function LegalesPage() {
 
               <h3 className="font-serif text-xl text-verde-profundo">Ejercicio de Derechos</h3>
               <p>
-                Para ejercer sus derechos, envíe una solicitud a <strong>coffeon.oficial@contacto.com</strong> incluyendo 
+                Para ejercer sus derechos, envíe una solicitud a <strong>caffeon.oficial@contacto.com</strong> incluyendo 
                 nombre completo, copia de documento identificativo y derecho que desea ejercer.
               </p>
             </div>
