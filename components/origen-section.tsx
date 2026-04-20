@@ -52,8 +52,8 @@ export function OrigenSection() {
           <div className="order-1 lg:order-2 relative">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=800&q=80"
-                alt="Caficultor colombiano en su finca"
+                src="/images/tueste.jpg"
+                alt="El arte del tueste artesanal de café"
                 fill
                 className="object-cover"
               />
