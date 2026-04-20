@@ -81,7 +81,7 @@ export function HeroSection() {
         {/* Logo */}
         <div className="mb-8">
           <h1 className="font-serif text-5xl md:text-7xl tracking-widest text-blanco-menta">
-            CAFFE<span className="text-dorado">O</span>N
+            COFFE<span className="text-dorado">O</span>N
           </h1>
           <p className="text-dorado text-sm md:text-base tracking-[0.3em] mt-2 uppercase">
             Café de Especialidad

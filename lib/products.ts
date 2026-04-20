@@ -26,7 +26,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Blend',
     descripcion: 'Blend exclusivo con notas de chocolate negro y frutos secos',
     notasSabor: ['Chocolate negro', 'Frutos secos', 'Caramelo'],
-    imagen: 'https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80',
     badge: 'Más vendido',
     destacado: true,
   },
@@ -40,7 +40,7 @@ export const productos: Producto[] = [
     origen: 'Huila, Colombia',
     descripcion: 'Acidez brillante con notas de frutas rojas y caramelo',
     notasSabor: ['Frutas rojas', 'Caramelo', 'Cítricos'],
-    imagen: 'https://images.unsplash.com/photo-1559525839-8f275eef4c4b?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1612528443702-f6741f70a049?w=600&q=80',
   },
   {
     id: 'ethiopia-reserve',
@@ -52,7 +52,7 @@ export const productos: Producto[] = [
     origen: 'Yirgacheffe, Etiopía',
     descripcion: 'Floral con notas de jazmín, bergamota y melocotón',
     notasSabor: ['Jazmín', 'Bergamota', 'Melocotón'],
-    imagen: 'https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=600&q=80',
     badge: 'Edición Limitada',
   },
   {
@@ -65,7 +65,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Brasil',
     descripcion: 'Equilibrado, chocolate con leche y avellana, baja acidez',
     notasSabor: ['Chocolate con leche', 'Avellana', 'Tostado suave'],
-    imagen: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&q=80',
   },
   {
     id: 'guatemala',
@@ -77,7 +77,7 @@ export const productos: Producto[] = [
     origen: 'Huehuetenango',
     descripcion: 'Notas de caramelo, manzana verde y azúcar moreno',
     notasSabor: ['Caramelo', 'Manzana verde', 'Azúcar moreno'],
-    imagen: 'https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80',
   },
   {
     id: 'pack-degustacion-particular',
@@ -89,7 +89,7 @@ export const productos: Producto[] = [
     origen: 'Multi-origen',
     descripcion: 'Descubre 4 orígenes diferentes',
     notasSabor: ['Variado', 'Descubrimiento'],
-    imagen: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&q=80',
   },
   
   // Línea Profesional (B2B)
@@ -103,7 +103,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Premium',
     descripcion: 'Consistencia perfecta para alto volumen, crema densa',
     notasSabor: ['Chocolate', 'Nuez', 'Crema densa'],
-    imagen: 'https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&q=80',
     badge: 'Para Negocios',
   },
   {
@@ -116,7 +116,7 @@ export const productos: Producto[] = [
     origen: 'Blend Colombia',
     descripcion: 'Optimizado para métodos de filtro en volumen',
     notasSabor: ['Frutal', 'Floral', 'Limpio'],
-    imagen: 'https://images.unsplash.com/photo-1611564494260-6f21b80af7ea?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80',
     badge: 'Para Negocios',
   },
   {
@@ -129,7 +129,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Centro América',
     descripcion: 'Para café de autor en restaurantes y hoteles',
     notasSabor: ['Equilibrado', 'Complejo', 'Versátil'],
-    imagen: 'https://images.unsplash.com/photo-1587734195503-904fca47e0e9?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=600&q=80',
     badge: 'Alta Cocina',
     destacado: true,
   },
@@ -146,7 +146,7 @@ export const productos: Producto[] = [
     origen: 'Multi',
     descripcion: 'Los 3 más vendidos de la línea particular',
     notasSabor: ['Variado', 'Best sellers'],
-    imagen: 'https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&q=80',
     badge: 'Ahorro 15%',
   },
   {
@@ -159,7 +159,7 @@ export const productos: Producto[] = [
     origen: 'Multi',
     descripcion: 'Prueba nuestra línea profesional',
     notasSabor: ['Profesional', 'Completo'],
-    imagen: 'https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=600&q=80',
     badge: 'Para Negocios',
   },
 ]

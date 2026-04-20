@@ -47,7 +47,7 @@ export function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
               <span className="font-serif text-2xl tracking-widest text-blanco-menta">
-                CAFFE<span className="text-dorado">O</span>N
+                COFFE<span className="text-dorado">O</span>N
               </span>
             </Link>
 
@@ -97,7 +97,7 @@ export function Header() {
                 <SheetContent side="right" className="bg-verde-profundo border-dorado/20 w-[300px]">
                   <div className="flex flex-col gap-6 pt-8">
                     <Link href="/" className="font-serif text-2xl tracking-widest text-blanco-menta">
-                      CAFFE<span className="text-dorado">O</span>N
+                      COFFE<span className="text-dorado">O</span>N
                     </Link>
                     <nav className="flex flex-col gap-4">
                       {navLinks.map((link) => (
