@@ -26,7 +26,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Blend',
     descripcion: 'Blend exclusivo con notas de chocolate negro y frutos secos',
     notasSabor: ['Chocolate negro', 'Frutos secos', 'Caramelo'],
-    imagen: 'https://images.unsplash.com/photo-1611564494260-6f21b80af7ea?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=600&q=80',
     badge: 'Más vendido',
     destacado: true,
   },
@@ -40,7 +40,7 @@ export const productos: Producto[] = [
     origen: 'Huila, Colombia',
     descripcion: 'Acidez brillante con notas de frutas rojas y caramelo',
     notasSabor: ['Frutas rojas', 'Caramelo', 'Cítricos'],
-    imagen: 'https://images.unsplash.com/photo-1559525839-b184a4d698c7?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1559525839-8f275eef4c4b?w=600&q=80',
   },
   {
     id: 'ethiopia-reserve',
@@ -52,7 +52,7 @@ export const productos: Producto[] = [
     origen: 'Yirgacheffe, Etiopía',
     descripcion: 'Floral con notas de jazmín, bergamota y melocotón',
     notasSabor: ['Jazmín', 'Bergamota', 'Melocotón'],
-    imagen: 'https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?w=600&q=80',
     badge: 'Edición Limitada',
   },
   {
@@ -65,7 +65,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Brasil',
     descripcion: 'Equilibrado, chocolate con leche y avellana, baja acidez',
     notasSabor: ['Chocolate con leche', 'Avellana', 'Tostado suave'],
-    imagen: 'https://images.unsplash.com/photo-1587734195503-904fca47e0e9?w=600&q=80',
+    imagen: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80',
   },
   {
     id: 'guatemala',
