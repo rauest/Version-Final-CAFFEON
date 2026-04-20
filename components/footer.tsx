@@ -44,7 +44,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-4">
               <span className="font-serif text-3xl tracking-widest">
-                COFFE<span className="text-dorado">O</span>N
+                CAFFE<span className="text-dorado">O</span>N
               </span>
             </Link>
             <p className="text-blanco-menta/70 text-sm leading-relaxed mb-6 max-w-xs">
