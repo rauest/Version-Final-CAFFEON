@@ -255,7 +255,7 @@ export const stories = [
     titulo: 'El arte del tueste: cómo desarrollamos sabores únicos',
     categoria: 'Tueste',
     tiempoLectura: '5 min',
-    imagen: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80',
+    imagen: '/images/stories/arte-tueste.jpg',
     extracto: 'Descubre los secretos detrás de nuestro proceso de tueste artesanal.',
   },
   {
