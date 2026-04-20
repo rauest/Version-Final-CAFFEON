@@ -26,7 +26,7 @@ export default function LegalesPage() {
             Información Legal
           </h1>
           <p className="text-blanco-menta/70 max-w-2xl mx-auto">
-            Transparencia y confianza son valores fundamentales de Caffeon. 
+            Transparencia y confianza son valores fundamentales de Coffeon. 
             Aquí encontrarás toda la información legal relevante.
           </p>
         </div>

@@ -16,7 +16,7 @@ export function StoriesSection() {
             Blog
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-blanco-menta mb-4">
-            Caffeon Stories
+            Coffeon Stories
           </h2>
           <p className="text-blanco-menta/70 max-w-2xl mx-auto">
             Historias que nacen en las fincas y llegan a tu mesa. Descubre el mundo 
@@ -71,7 +71,7 @@ export function StoriesSection() {
           <Button
             variant="outline"
             size="lg"
-            className="border-blanco-menta/30 text-blanco-menta hover:bg-blanco-menta/10"
+            className="border-blanco-menta/30 bg-blanco-menta text-verde-profundo hover:bg-blanco-menta/90 hover:text-verde-profundo"
           >
             Ver todas las historias
             <ArrowRight className="h-4 w-4 ml-2" />

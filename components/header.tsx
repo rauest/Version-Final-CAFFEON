@@ -11,11 +11,11 @@ import { CartDrawer } from './cart-drawer'
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '#productos', label: 'Productos' },
-  { href: '#stories', label: 'Caffeon Stories' },
+  { href: '#stories', label: 'Coffeon Stories' },
   { href: '#sostenibilidad', label: 'Sostenibilidad' },
   { href: '#contacto', label: 'Contacto' },
   { href: '#faq', label: 'FAQ' },
-  { href: '#club', label: 'Club Caffeon' },
+  { href: '#club', label: 'Club Coffeon' },
   { href: '/legales', label: 'Legales' },
 ]
 
