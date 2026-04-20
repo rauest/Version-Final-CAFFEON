@@ -71,7 +71,7 @@ export default function LegalesPage() {
 
               <h3 className="font-serif text-xl text-verde-profundo">Datos Identificativos</h3>
               <ul>
-                <li><strong>Responsable:</strong> COFFEON.ES</li>
+                <li><strong>Responsable:</strong> CAFFEON.ES</li>
                 <li><strong>Nombre comercial:</strong> CAFFEON</li>
                 <li><strong>Domicilio social:</strong> Bogotá, Colombia, 110110</li>
                 <li><strong>Email de contacto:</strong> coffeon.oficial@contacto.com</li>
@@ -109,7 +109,7 @@ export default function LegalesPage() {
             <div className="prose prose-lg max-w-none text-verde-profundo/80">
               <h3 className="font-serif text-xl text-verde-profundo">Responsable del Tratamiento</h3>
               <p>
-                COFFEON.ES es responsable de garantizar la protección y el uso adecuado de los datos personales 
+                CAFFEON.ES es responsable de garantizar la protección y el uso adecuado de los datos personales 
                 de los usuarios, conforme al Reglamento (UE) 2016/679 (RGPD) y la normativa vigente.
               </p>
 
