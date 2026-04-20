@@ -26,7 +26,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Blend',
     descripcion: 'Blend exclusivo con notas de chocolate negro y frutos secos',
     notasSabor: ['Chocolate negro', 'Frutos secos', 'Caramelo'],
-    imagen: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80',
+    imagen: '/images/products/signature-arabico.jpg',
     badge: 'Más vendido',
     destacado: true,
   },
@@ -40,7 +40,7 @@ export const productos: Producto[] = [
     origen: 'Huila, Colombia',
     descripcion: 'Acidez brillante con notas de frutas rojas y caramelo',
     notasSabor: ['Frutas rojas', 'Caramelo', 'Cítricos'],
-    imagen: 'https://images.unsplash.com/photo-1612528443702-f6741f70a049?w=600&q=80',
+    imagen: '/images/products/origin-colombia.jpg',
   },
   {
     id: 'ethiopia-reserve',
@@ -52,7 +52,7 @@ export const productos: Producto[] = [
     origen: 'Yirgacheffe, Etiopía',
     descripcion: 'Floral con notas de jazmín, bergamota y melocotón',
     notasSabor: ['Jazmín', 'Bergamota', 'Melocotón'],
-    imagen: 'https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=600&q=80',
+    imagen: '/images/products/ethiopia-reserve.jpg',
     badge: 'Edición Limitada',
   },
   
@@ -67,7 +67,7 @@ export const productos: Producto[] = [
     origen: 'Vietnam + Uganda',
     descripcion: 'Cuerpo potente con notas de cacao y madera',
     notasSabor: ['Cacao', 'Madera', 'Especias'],
-    imagen: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&q=80',
+    imagen: '/images/products/robusto-intenso.jpg',
   },
   {
     id: 'robusto-crema',
@@ -79,7 +79,7 @@ export const productos: Producto[] = [
     origen: 'India + Brasil',
     descripcion: 'Crema densa y persistente, ideal para espresso',
     notasSabor: ['Nuez', 'Tostado', 'Crema densa'],
-    imagen: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&q=80',
+    imagen: '/images/products/robusto-crema.jpg',
     badge: 'Alta Crema',
   },
   
@@ -94,7 +94,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Brasil',
     descripcion: 'Blend tradicional español, equilibrado y suave',
     notasSabor: ['Chocolate con leche', 'Avellana', 'Tostado suave'],
-    imagen: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80',
+    imagen: '/images/products/iberico-tradicion.jpg',
   },
   {
     id: 'iberico-natural',
@@ -106,7 +106,7 @@ export const productos: Producto[] = [
     origen: 'Centro América',
     descripcion: 'Tueste natural, sabor clásico de cafetería española',
     notasSabor: ['Caramelo', 'Pan tostado', 'Dulce'],
-    imagen: 'https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&q=80',
+    imagen: '/images/products/iberico-natural.jpg',
   },
   
   // Línea Particular - Excelsior (premium, ediciones especiales)
@@ -120,7 +120,7 @@ export const productos: Producto[] = [
     origen: 'Panamá',
     descripcion: 'Variedad Geisha, notas florales excepcionales',
     notasSabor: ['Jazmín', 'Bergamota', 'Miel'],
-    imagen: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80',
+    imagen: '/images/products/excelsior-geisha.jpg',
     badge: 'Ultra Premium',
     destacado: true,
   },
