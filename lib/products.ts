@@ -238,7 +238,7 @@ export const faqItems = [
   },
   {
     pregunta: '¿Tienen suscripción mensual?',
-    respuesta: 'Próximamente lanzaremos Club Caffeon con entrega mensual y beneficios exclusivos. ¡Suscríbete a nuestra newsletter para enterarte primero!',
+    respuesta: 'Próximamente lanzaremos Club Coffeon con entrega mensual y beneficios exclusivos. ¡Suscríbete a nuestra newsletter para enterarte primero!',
   },
   {
     pregunta: '¿Puedo devolver un producto?',

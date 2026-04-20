@@ -16,7 +16,7 @@ export function StoriesSection() {
             Blog
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-blanco-menta mb-4">
-            Caffeon Stories
+            Coffeon Stories
           </h2>
           <p className="text-blanco-menta/70 max-w-2xl mx-auto">
             Historias que nacen en las fincas y llegan a tu mesa. Descubre el mundo 

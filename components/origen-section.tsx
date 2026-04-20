@@ -17,12 +17,12 @@ export function OrigenSection() {
               Nuestra Historia
             </span>
             <h2 className="font-serif text-4xl md:text-5xl text-verde-profundo mb-6 text-balance">
-              El Origen de Caffeon
+              El Origen de Coffeon
             </h2>
             <div className="space-y-4 text-verde-profundo/70 leading-relaxed">
               <p>
                 En las montañas de Colombia, donde el café crece entre la niebla y el sol tropical, 
-                nació nuestra pasión. Caffeon surgió de la convicción de que el café de especialidad 
+                nació nuestra pasión. Coffeon surgió de la convicción de que el café de especialidad 
                 merece un puente directo entre el caficultor y las mejores mesas del mundo.
               </p>
               <p>

@@ -5,14 +5,14 @@ const footerLinks = {
   empresa: [
     { label: 'Nuestra Historia', href: '#origen' },
     { label: 'Sostenibilidad', href: '#sostenibilidad' },
-    { label: 'Caffeon Stories', href: '#stories' },
+    { label: 'Coffeon Stories', href: '#stories' },
     { label: 'Contacto', href: '#contacto' },
   ],
   productos: [
     { label: 'Línea Particular', href: '#productos' },
     { label: 'Línea Profesional', href: '#productos' },
     { label: 'Packs', href: '#productos' },
-    { label: 'Club Caffeon', href: '#club' },
+    { label: 'Club Coffeon', href: '#club' },
   ],
   soporte: [
     { label: 'FAQ', href: '#faq' },
@@ -166,7 +166,7 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-blanco-menta/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-blanco-menta/50 text-xs">
-              © 2025 Caffeon. Todos los derechos reservados.
+              © 2025 Coffeon. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-4">
               <Link

@@ -38,7 +38,7 @@ export function ClubSection() {
     // Simulate subscription
     await new Promise(resolve => setTimeout(resolve, 1000))
     
-    toast.success('¡Bienvenido al Club Caffeon! Revisa tu email.')
+    toast.success('¡Bienvenido al Club Coffeon! Revisa tu email.')
     setEmail('')
     setIsSubmitting(false)
   }
@@ -61,7 +61,7 @@ export function ClubSection() {
             Newsletter
           </span>
           <h2 className="font-serif text-4xl md:text-5xl text-blanco-menta mb-4">
-            Club Caffeon
+            Club Coffeon
           </h2>
           <p className="text-blanco-menta/70 max-w-xl mx-auto mb-10">
             Únete a nuestra comunidad y recibe contenido exclusivo, ofertas especiales 
