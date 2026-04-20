@@ -71,7 +71,7 @@ export function StoriesSection() {
           <Button
             variant="outline"
             size="lg"
-            className="border-blanco-menta/30 text-blanco-menta hover:bg-blanco-menta/10"
+            className="border-blanco-menta/30 bg-blanco-menta text-verde-profundo hover:bg-blanco-menta/90 hover:text-verde-profundo"
           >
             Ver todas las historias
             <ArrowRight className="h-4 w-4 ml-2" />
