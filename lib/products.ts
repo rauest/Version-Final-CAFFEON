@@ -26,7 +26,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Blend',
     descripcion: 'Blend exclusivo con notas de chocolate negro y frutos secos',
     notasSabor: ['Chocolate negro', 'Frutos secos', 'Caramelo'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Signature+Espresso',
+    imagen: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80',
     badge: 'Más vendido',
     destacado: true,
   },
@@ -40,7 +40,7 @@ export const productos: Producto[] = [
     origen: 'Huila, Colombia',
     descripcion: 'Acidez brillante con notas de frutas rojas y caramelo',
     notasSabor: ['Frutas rojas', 'Caramelo', 'Cítricos'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Origin+Colombia',
+    imagen: 'https://images.unsplash.com/photo-1612528443702-f6741f70a049?w=600&q=80',
   },
   {
     id: 'ethiopia-reserve',
@@ -52,7 +52,7 @@ export const productos: Producto[] = [
     origen: 'Yirgacheffe, Etiopía',
     descripcion: 'Floral con notas de jazmín, bergamota y melocotón',
     notasSabor: ['Jazmín', 'Bergamota', 'Melocotón'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Ethiopia+Reserve',
+    imagen: 'https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=600&q=80',
     badge: 'Edición Limitada',
   },
   {
@@ -65,7 +65,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Brasil',
     descripcion: 'Equilibrado, chocolate con leche y avellana, baja acidez',
     notasSabor: ['Chocolate con leche', 'Avellana', 'Tostado suave'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Smooth+Blend',
+    imagen: 'https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&q=80',
   },
   {
     id: 'guatemala',
@@ -77,7 +77,7 @@ export const productos: Producto[] = [
     origen: 'Huehuetenango',
     descripcion: 'Notas de caramelo, manzana verde y azúcar moreno',
     notasSabor: ['Caramelo', 'Manzana verde', 'Azúcar moreno'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Guatemala',
+    imagen: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80',
   },
   {
     id: 'pack-degustacion-particular',
@@ -89,7 +89,7 @@ export const productos: Producto[] = [
     origen: 'Multi-origen',
     descripcion: 'Descubre 4 orígenes diferentes',
     notasSabor: ['Variado', 'Descubrimiento'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Pack+Degustacion',
+    imagen: 'https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&q=80',
   },
   
   // Línea Profesional (B2B)
@@ -103,7 +103,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Premium',
     descripcion: 'Consistencia perfecta para alto volumen, crema densa',
     notasSabor: ['Chocolate', 'Nuez', 'Crema densa'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Pro+Espresso',
+    imagen: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&q=80',
     badge: 'Para Negocios',
   },
   {
@@ -116,7 +116,7 @@ export const productos: Producto[] = [
     origen: 'Blend Colombia',
     descripcion: 'Optimizado para métodos de filtro en volumen',
     notasSabor: ['Frutal', 'Floral', 'Limpio'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Pro+Filtro',
+    imagen: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80',
     badge: 'Para Negocios',
   },
   {
@@ -129,7 +129,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Centro América',
     descripcion: 'Para café de autor en restaurantes y hoteles',
     notasSabor: ['Equilibrado', 'Complejo', 'Versátil'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Hosteleria+Blend',
+    imagen: 'https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=600&q=80',
     badge: 'Alta Cocina',
     destacado: true,
   },
@@ -146,7 +146,7 @@ export const productos: Producto[] = [
     origen: 'Multi',
     descripcion: 'Los 3 más vendidos de la línea particular',
     notasSabor: ['Variado', 'Best sellers'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Pack+Inicio',
+    imagen: 'https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&q=80',
     badge: 'Ahorro 15%',
   },
   {
@@ -159,7 +159,7 @@ export const productos: Producto[] = [
     origen: 'Multi',
     descripcion: 'Prueba nuestra línea profesional',
     notasSabor: ['Profesional', 'Completo'],
-    imagen: '/placeholder.svg?height=400&width=400&text=Pack+Pro',
+    imagen: 'https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=600&q=80',
     badge: 'Para Negocios',
   },
 ]
@@ -170,7 +170,7 @@ export const stories = [
     titulo: 'El arte del tueste: cómo desarrollamos sabores únicos',
     categoria: 'Tueste',
     tiempoLectura: '5 min',
-    imagen: '/placeholder.svg?height=300&width=400&text=Arte+del+Tueste',
+    imagen: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80',
     extracto: 'Descubre los secretos detrás de nuestro proceso de tueste artesanal.',
   },
   {
@@ -178,7 +178,7 @@ export const stories = [
     titulo: 'De Huila a Madrid: la ruta del café de especialidad',
     categoria: 'Origen',
     tiempoLectura: '8 min',
-    imagen: '/placeholder.svg?height=300&width=400&text=Huila+a+Madrid',
+    imagen: 'https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=600&q=80',
     extracto: 'Un viaje desde las montañas colombianas hasta tu taza.',
   },
   {
@@ -186,7 +186,7 @@ export const stories = [
     titulo: 'Métodos de extracción para alta cocina',
     categoria: 'Técnica',
     tiempoLectura: '6 min',
-    imagen: '/placeholder.svg?height=300&width=400&text=Metodos+Extraccion',
+    imagen: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80',
     extracto: 'Técnicas profesionales para servir el café perfecto.',
   },
   {
@@ -194,7 +194,7 @@ export const stories = [
     titulo: 'Sostenibilidad real: nuestros compromisos con Colombia',
     categoria: 'Sostenibilidad',
     tiempoLectura: '4 min',
-    imagen: '/placeholder.svg?height=300&width=400&text=Sostenibilidad',
+    imagen: 'https://images.unsplash.com/photo-1542601906897-ecea377f8a11?w=600&q=80',
     extracto: 'Cómo impactamos positivamente en las comunidades cafeteras.',
   },
   {
@@ -202,7 +202,7 @@ export const stories = [
     titulo: 'Cómo elegir el café perfecto para tu restaurante',
     categoria: 'B2B',
     tiempoLectura: '7 min',
-    imagen: '/placeholder.svg?height=300&width=400&text=Cafe+Restaurante',
+    imagen: 'https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=600&q=80',
     extracto: 'Guía completa para profesionales de la hostelería.',
   },
   {
@@ -210,7 +210,7 @@ export const stories = [
     titulo: 'El campesino detrás de tu taza: historia de Don Carlos',
     categoria: 'Origen',
     tiempoLectura: '10 min',
-    imagen: '/placeholder.svg?height=300&width=400&text=Don+Carlos',
+    imagen: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80',
     extracto: 'Conoce a uno de nuestros caficultores aliados.',
   },
 ]

@@ -11,19 +11,19 @@ const slides = [
     id: 1,
     title: 'Del Origen a la Mesa',
     subtitle: 'Café de especialidad colombiano para alta cocina',
-    image: '/placeholder.svg?height=1080&width=1920&text=Cafetal+Colombiano+Montañas',
+    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1920&q=80',
   },
   {
     id: 2,
     title: 'Calidad Constante',
     subtitle: 'Trazabilidad completa desde la finca hasta tu negocio',
-    image: '/placeholder.svg?height=1080&width=1920&text=Granos+Cafe+Premium',
+    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=1920&q=80',
   },
   {
     id: 3,
     title: 'Alta Cocina',
     subtitle: 'Experiencias únicas para negocios que valoran la excelencia',
-    image: '/placeholder.svg?height=1080&width=1920&text=Taza+Cafe+Gourmet',
+    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&q=80',
   },
 ]
 
