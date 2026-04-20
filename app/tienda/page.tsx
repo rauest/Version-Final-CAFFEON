@@ -136,15 +136,20 @@ export default function TiendaPage() {
       <div>
         <h4 className="font-serif text-lg text-verde-profundo mb-3">Categoría</h4>
         <div className="space-y-2">
-          {['espresso', 'filtro', 'blend', 'origen'].map((cat) => (
-            <div key={cat} className="flex items-center space-x-2">
+          {[
+            { value: 'arabico', label: 'Arábico' },
+            { value: 'robusto', label: 'Robusto' },
+            { value: 'iberico', label: 'Ibérico' },
+            { value: 'excelsior', label: 'Excelsior' },
+          ].map((cat) => (
+            <div key={cat.value} className="flex items-center space-x-2">
               <Checkbox
-                id={`cat-${cat}`}
-                checked={selectedCategorias.includes(cat)}
-                onCheckedChange={() => toggleCategoria(cat)}
+                id={`cat-${cat.value}`}
+                checked={selectedCategorias.includes(cat.value)}
+                onCheckedChange={() => toggleCategoria(cat.value)}
               />
-              <Label htmlFor={`cat-${cat}`} className="text-verde-profundo/70 capitalize cursor-pointer">
-                {cat === 'origen' ? 'Origen Único' : cat}
+              <Label htmlFor={`cat-${cat.value}`} className="text-verde-profundo/70 cursor-pointer">
+                {cat.label}
               </Label>
             </div>
           ))}

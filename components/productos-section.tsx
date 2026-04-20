@@ -13,7 +13,7 @@ import { ProductCard } from './product-card'
 import { productos, type Producto } from '@/lib/products'
 
 type Linea = 'todos' | 'particular' | 'profesional' | 'pack'
-type Categoria = 'todos' | 'espresso' | 'filtro' | 'blend' | 'origen'
+type Categoria = 'todos' | 'arabico' | 'robusto' | 'iberico' | 'excelsior'
 
 const lineasTabs: { value: Linea; label: string }[] = [
   { value: 'todos', label: 'Todos' },
@@ -24,10 +24,10 @@ const lineasTabs: { value: Linea; label: string }[] = [
 
 const categorias: { value: Categoria; label: string }[] = [
   { value: 'todos', label: 'Todas las categorías' },
-  { value: 'espresso', label: 'Espresso' },
-  { value: 'filtro', label: 'Filtro' },
-  { value: 'blend', label: 'Blend' },
-  { value: 'origen', label: 'Origen Único' },
+  { value: 'arabico', label: 'Arábico' },
+  { value: 'robusto', label: 'Robusto' },
+  { value: 'iberico', label: 'Ibérico' },
+  { value: 'excelsior', label: 'Excelsior' },
 ]
 
 export function ProductosSection() {
