@@ -9,7 +9,7 @@ import { useCart } from '@/context/cart-context'
 import { CartDrawer } from './cart-drawer'
 
 const navLinks = [
-  { href: '/', label: 'Home' },
+  { href: '#top', label: 'Home' },
   { href: '#productos', label: 'Productos' },
   { href: '#stories', label: 'Coffeon Stories' },
   { href: '#sostenibilidad', label: 'Sostenibilidad' },
