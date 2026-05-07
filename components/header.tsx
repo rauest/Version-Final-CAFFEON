@@ -9,13 +9,13 @@ import { useCart } from '@/context/cart-context'
 import { CartDrawer } from './cart-drawer'
 
 const navLinks = [
-  { href: '#top', label: 'Home' },
-  { href: '#productos', label: 'Productos' },
-  { href: '#stories', label: 'Coffeon Stories' },
-  { href: '#sostenibilidad', label: 'Sostenibilidad' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#contacto', label: 'Contacto' },
-  { href: '#club', label: 'Club Coffeon' },
+  { href: '/#top', label: 'Home' },
+  { href: '/#productos', label: 'Productos' },
+  { href: '/#stories', label: 'Coffeon Stories' },
+  { href: '/#sostenibilidad', label: 'Sostenibilidad' },
+  { href: '/#faq', label: 'FAQ' },
+  { href: '/#contacto', label: 'Contacto' },
+  { href: '/#club', label: 'Club Coffeon' },
   { href: '/legales', label: 'Legales' },
 ]
 
