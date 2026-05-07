@@ -279,7 +279,7 @@ export const stories = [
     titulo: 'Sostenibilidad real: nuestros compromisos con Colombia',
     categoria: 'Sostenibilidad',
     tiempoLectura: '4 min',
-    imagen: 'https://images.unsplash.com/photo-1542601906897-ecea377f8a11?w=600&q=80',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Colombia-xpCKZI3uxV39fOrpnFvRlVTuj3hXo6.jpg',
     extracto: 'Cómo impactamos positivamente en las comunidades cafeteras.',
   },
   {
