@@ -11,7 +11,7 @@ import { Footer } from '@/components/footer'
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
+    <main id="top" className="min-h-screen">
       <Header />
       <HeroSection />
       <OrigenSection />

@@ -2,26 +2,28 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { ShoppingBag, Menu, X } from 'lucide-react'
+import { ShoppingBag, Menu, User } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { useCart } from '@/context/cart-context'
 import { CartDrawer } from './cart-drawer'
+import { RegisterModal } from './register-modal'
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '#productos', label: 'Productos' },
-  { href: '#stories', label: 'Coffeon Stories' },
-  { href: '#sostenibilidad', label: 'Sostenibilidad' },
-  { href: '#contacto', label: 'Contacto' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#club', label: 'Club Coffeon' },
+  { href: '/#top', label: 'Home' },
+  { href: '/#productos', label: 'Productos' },
+  { href: '/#stories', label: 'Coffeon Stories' },
+  { href: '/#sostenibilidad', label: 'Sostenibilidad' },
+  { href: '/#faq', label: 'FAQ' },
+  { href: '/#contacto', label: 'Contacto' },
+  { href: '/#club', label: 'Club Coffeon' },
   { href: '/legales', label: 'Legales' },
 ]
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [registerModalOpen, setRegisterModalOpen] = useState(false)
   const { totalItems, openCart } = useCart()
 
   useEffect(() => {
@@ -64,8 +66,19 @@ export function Header() {
               ))}
             </nav>
 
-            {/* Cart & Mobile Menu */}
+            {/* Register, Cart & Mobile Menu */}
             <div className="flex items-center gap-4">
+              {/* Register Button */}
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={() => setRegisterModalOpen(true)}
+                className="hidden lg:flex text-blanco-menta hover:text-dorado hover:bg-blanco-menta/10"
+              >
+                <User className="h-5 w-5" />
+                <span className="sr-only">Crear cuenta</span>
+              </Button>
+
               {/* Cart Button */}
               <Button
                 variant="ghost"
@@ -111,6 +124,16 @@ export function Header() {
                         </Link>
                       ))}
                     </nav>
+                    <Button
+                      onClick={() => {
+                        setMobileMenuOpen(false)
+                        setRegisterModalOpen(true)
+                      }}
+                      className="mt-4 bg-dorado hover:bg-dorado/90 text-verde-profundo font-semibold"
+                    >
+                      <User className="h-4 w-4 mr-2" />
+                      Crear Cuenta
+                    </Button>
                   </div>
                 </SheetContent>
               </Sheet>
@@ -121,6 +144,9 @@ export function Header() {
 
       {/* Cart Drawer */}
       <CartDrawer />
+
+      {/* Register Modal */}
+      <RegisterModal open={registerModalOpen} onOpenChange={setRegisterModalOpen} />
     </>
   )
 }

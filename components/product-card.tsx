@@ -1,10 +1,12 @@
 'use client'
 
+import { useState } from 'react'
 import Image from 'next/image'
 import { ShoppingBag, Phone, Coffee } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
+import { ProductDetailModal } from './product-detail-modal'
 import { useCart } from '@/context/cart-context'
 import { toast } from 'sonner'
 import type { Producto } from '@/lib/products'
@@ -15,6 +17,7 @@ interface ProductCardProps {
 
 export function ProductCard({ producto }: ProductCardProps) {
   const { addItem } = useCart()
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('es-ES', {
@@ -42,8 +45,12 @@ export function ProductCard({ producto }: ProductCardProps) {
   }
 
   return (
-    <Card className="group overflow-hidden bg-white border-verde-profundo/10 hover:border-dorado/30 transition-all duration-300 hover:shadow-lg">
-      <div className="relative aspect-square overflow-hidden bg-verde-profundo/5">
+    <>
+    <Card className="group overflow-hidden bg-white border-verde-profundo/10 hover:border-dorado/30 transition-all duration-300 hover:shadow-lg cursor-pointer">
+      <div 
+        className="relative aspect-square overflow-hidden bg-verde-profundo/5"
+        onClick={() => setIsModalOpen(true)}
+      >
         <Image
           src={producto.imagen}
           alt={producto.nombre}
@@ -88,7 +95,10 @@ export function ProductCard({ producto }: ProductCardProps) {
         </div>
 
         {/* Name */}
-        <h3 className="font-serif text-lg text-verde-profundo mb-2 line-clamp-2 min-h-[3.5rem]">
+        <h3 
+          className="font-serif text-lg text-verde-profundo mb-2 line-clamp-2 min-h-[3.5rem] cursor-pointer hover:text-dorado transition-colors"
+          onClick={() => setIsModalOpen(true)}
+        >
           {producto.nombre}
         </h3>
 
@@ -142,5 +152,12 @@ export function ProductCard({ producto }: ProductCardProps) {
         </div>
       </CardContent>
     </Card>
+    
+    <ProductDetailModal
+      producto={producto}
+      open={isModalOpen}
+      onOpenChange={setIsModalOpen}
+    />
+    </>
   )
 }

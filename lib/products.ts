@@ -134,7 +134,7 @@ export const productos: Producto[] = [
     origen: 'Rwanda',
     descripcion: 'Variedad Bourbon rojo, complejidad frutal única',
     notasSabor: ['Frambuesa', 'Vino tinto', 'Chocolate'],
-    imagen: '/images/products/excelsior-bourbon.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Excelsior%20Bourbon-kWRmC4VYVyaa6w69aGFE65AZkwHTae.jpg',
     badge: 'Edición Limitada',
   },
   {
@@ -147,7 +147,7 @@ export const productos: Producto[] = [
     origen: 'Huehuetenango',
     descripcion: 'Microlote seleccionado, notas de caramelo y manzana',
     notasSabor: ['Caramelo', 'Manzana verde', 'Azúcar moreno'],
-    imagen: '/images/products/guatemala-excelsior.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Guatemala%20Excelsior-WlnBkdP0PvFDZbcFZcIiYuboh5HNtN.jpg',
   },
   
   // Packs
@@ -161,7 +161,7 @@ export const productos: Producto[] = [
     origen: 'Multi-origen',
     descripcion: 'Descubre las 4 categorías: Arábico, Robusto, Ibérico y Excelsior',
     notasSabor: ['Variado', 'Descubrimiento'],
-    imagen: '/images/products/pack-degustacion-particular.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pack%20Degustaci%C3%B3n%204%20Categor%C3%ADas-xH0Iv8u4MWi2Lchc2RtehPlYdRP9aM.jpg',
   },
   
   // Línea Profesional (B2B)
@@ -175,7 +175,7 @@ export const productos: Producto[] = [
     origen: 'Colombia Premium',
     descripcion: 'Consistencia perfecta para alto volumen, perfil suave',
     notasSabor: ['Chocolate', 'Nuez', 'Afrutado'],
-    imagen: '/images/products/pro-arabico.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pro%20Javaica-o6adrRZEVKLrydJUhCb07syDjapopI.jpg',
     badge: 'Para Negocios',
   },
   {
@@ -188,7 +188,7 @@ export const productos: Producto[] = [
     origen: 'Vietnam Premium',
     descripcion: 'Crema excepcional para hostelería de alto volumen',
     notasSabor: ['Intenso', 'Crema densa', 'Persistente'],
-    imagen: '/images/products/pro-robusto.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pro%20Robustas-3kFwLDWmXTHL8Y3y0soE8qepwlZSiU.jpg',
     badge: 'Para Negocios',
   },
   {
@@ -201,7 +201,7 @@ export const productos: Producto[] = [
     origen: 'Colombia + Brasil',
     descripcion: 'Blend de cafés únicos, exóticos y robustos naturales',
     notasSabor: ['Equilibrado', 'Tradicional', 'Versátil'],
-    imagen: '/images/products/hosteleria-iberico.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Excelsior%20Iberico-VyvAoaQOqxbEC66qnQUploop2AXqCN.jpg',
     badge: 'Hostelería',
     destacado: true,
   },
@@ -215,7 +215,7 @@ export const productos: Producto[] = [
     origen: 'Multi-origen Premium',
     descripcion: 'Más que cafés únicos de cacao y frutas secas',
     notasSabor: ['Complejo', 'Elegante', 'Memorable'],
-    imagen: '/images/products/pro-excelsior.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pro%20Excelsior-SCdTVhnPqhACNglUwmb3vBJ3yiXhfw.jpg',
     badge: 'Alta Cocina',
   },
   
@@ -231,7 +231,7 @@ export const productos: Producto[] = [
     origen: 'Multi',
     descripcion: 'Los 3 cafés vendidos de línea particular',
     notasSabor: ['Variado', 'Best sellers'],
-    imagen: '/images/products/pack-inicio-particular.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Inicio%20Particular-eqvUb5SO5T5kS3OewAUIsHxBw3eTEy.jpg',
     badge: 'Ahorro 15%',
   },
   {
@@ -244,7 +244,7 @@ export const productos: Producto[] = [
     origen: 'Multi',
     descripcion: 'Prueba nuestra línea profesional',
     notasSabor: ['Profesional', 'Completo'],
-    imagen: '/images/products/pack-degustacion-pro.jpg',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Degustacion%20Pro-cXz438qhRtyBNPhVcdSqxdghsx42hi.jpg',
     badge: 'Para Negocios',
   },
 ]
@@ -279,7 +279,7 @@ export const stories = [
     titulo: 'Sostenibilidad real: nuestros compromisos con Colombia',
     categoria: 'Sostenibilidad',
     tiempoLectura: '4 min',
-    imagen: 'https://images.unsplash.com/photo-1542601906897-ecea377f8a11?w=600&q=80',
+    imagen: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Colombia-xpCKZI3uxV39fOrpnFvRlVTuj3hXo6.jpg',
     extracto: 'Cómo impactamos positivamente en las comunidades cafeteras.',
   },
   {
