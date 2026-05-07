@@ -13,8 +13,8 @@ const navLinks = [
   { href: '#productos', label: 'Productos' },
   { href: '#stories', label: 'Coffeon Stories' },
   { href: '#sostenibilidad', label: 'Sostenibilidad' },
-  { href: '#contacto', label: 'Contacto' },
   { href: '#faq', label: 'FAQ' },
+  { href: '#contacto', label: 'Contacto' },
   { href: '#club', label: 'Club Coffeon' },
   { href: '/legales', label: 'Legales' },
 ]
