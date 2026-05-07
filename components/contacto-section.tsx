@@ -49,7 +49,7 @@ export function ContactoSection() {
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
           <Card className="border-verde-profundo/10">
-            <CardContent className="p-6">
+            <CardContent className="p-6 pb-4">
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
